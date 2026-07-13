@@ -9,7 +9,6 @@
 
     <h1>CatPhotoApp</h1>
 
-  
         <section>
             <h2>Cat Photos</h2>
 
@@ -70,34 +69,34 @@
         <section>
             <h2>Cat Form</h2>
 
-            <form action="https://github.com/Aatheessubash/task_1.git">
+            <form>
 
                 <p>Is your cat an indoor or outdoor cat?</p>
 
                 <label>
-                    <input type="radio" name="indoor-outdoor" checked>
+                    <input type="radio" name="indoor-outdoor" value="indoor" checked>
                     indoor
                 </label>
 
                 <label>
-                    <input type="radio" name="indoor-outdoor">
+                    <input type="radio" name="indoor-outdoor" value="outdoor">
                     outdoor
                 </label>
 
                 <p>What's your cat's personality?</p>
 
                 <label>
-                    <input type="checkbox" checked>
+                    <input type="checkbox" name="personality" value="loving" checked>
                     Loving
                 </label>
 
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" name="personality" value="lazy">
                     Lazy
                 </label>
 
                 <label>
-                    <input type="checkbox">
+                    <input type="checkbox" name="personality" value="energetic">
                     Energetic
                 </label>
 
@@ -105,6 +104,7 @@
 
                 <input
                     type="text"
+                    name="cat-photo-url"
                     placeholder="cat photo URL"
                     required>
 
